@@ -25,8 +25,8 @@ ctrl+i | ctrl+i | Implement methods | N/A
 ctrl+alt+t | cmd+alt+t | Surround with... (if..else, try..catch, for, synchronized, etc.) | N/A
 ctrl+/ | cmd+/ | Comment/uncomment with line comment | ✅
 ctrl+numpad_divide | cmd+numpad_divide | Comment/uncomment with line comment | ✅
-ctrl+alt+/ | cmd+alt+/ | Comment/uncomment with block comment | ✅
-ctrl+alt+numpad_divide | cmd+alt+numpad_divide | Comment/uncomment with block comment | ✅
+ctrl+shift+/ | cmd+alt+/ | Comment/uncomment with block comment | ✅
+ctrl+shift+numpad_divide | cmd+alt+numpad_divide | Comment/uncomment with block comment | ✅
 ctrl+w | alt+up | Select successively increasing code blocks | ✅
 ctrl+shift+w | alt+down | Decrease current selection to previous state | ✅
 alt+q | ctrl+shift+q | Context info | N/A
@@ -70,6 +70,7 @@ alt+j | ctrl+g | Add selection for Next Occurrence | ✅
 alt+shift+j | ctrl+shift+g | Unselect Occurrence | ✅
 shift+alt+down | shift+alt+down | Move Line Down | ✅
 shift+alt+up | shift+alt+up | Move Line Up | ✅
+shift+ctrl+8 | shift+cmd+8 | Column Selection Mode | ✅
 
 ### Search/Replace
 
@@ -131,9 +132,9 @@ ctrl+n | cmd+o | Go to class | ✅
 ctrl+shift+n | cmd+shift+o | Go to file | ✅
 ctrl+alt+shift+n | cmd+alt+o | Go to symbol | ✅
 alt+left | ctrl+left | Go to previous editor tab | ✅
- | shift+cmd+[ | Go to previous editor tab | ✅
+N/A | shift+cmd+[ | Go to previous editor tab | ✅
 alt+right | ctrl+right | Go to next editor tab | ✅
- | shift+cmd+] | Go to next editor tab | ✅
+N/A | shift+cmd+] | Go to next editor tab | ✅
 f12 | f12 | Go back to previous tool window | N/A
 escape | escape | Go to editor (from tool window) | N/A
 shift+escape | shift+escape | Hide active or last active window (Sidebar) | ✅
@@ -146,15 +147,15 @@ ctrl+shift+f4 | cmd+shift+f4 | Close active run/messages/find/... tab | N/A
 ctrl+g | cmd+l | Go to line | ✅
 ctrl+e | cmd+e | Recent files popup | ✅
 ctrl+alt+left | cmd+alt+left | Navigate back | ✅
- | cmd+[ | Navigate back | ✅
+N/A | cmd+[ | Navigate back | ✅
 ctrl+alt+right | cmd+alt+right | Navigate forward | ✅
- | cmd+] | Navigate forward | ✅
+N/A | cmd+] | Navigate forward | ✅
 ctrl+shift+backspace | cmd+shift+backspace | Navigate to last edit location | ✅
 alt+f1 | alt+f1 | Select current file or symbol in any view | N/A
 ctrl+b | cmd+b | Go to declaration | ✅
 ctrl+alt+b | cmd+alt+b | Go to implementation(s) | ✅
 ctrl+shift+i | alt+space | Open quick definition lookup | ✅
- | cmd+y | Open quick definition lookup | ✅
+N/A | cmd+y | Open quick definition lookup | ✅
 ctrl+shift+b | ctrl+shift+b | Go to type declaration | ✅
 ctrl+u | cmd+u | Go to super-method/super-class | N/A
 alt+up | ctrl+up | Go to previous method | N/A
@@ -190,6 +191,7 @@ f5 | f5 | Copy | N/A
 f6 | f6 | Move | N/A
 alt+delete | cmd+delete | Safe Delete | N/A
 shift+f6 | shift+f6 | Rename | ✅
+shift+f6 | shift+f6 | Select All Occurrences | ✅
 shift+f6 | shift+f6 | Rename (File) | ✅
 ctrl+f6 | cmd+f6 | Change Signature | N/A
 ctrl+alt+n | cmd+alt+n | Inline | N/A
@@ -344,6 +346,8 @@ when changes are saved.
 * [@kroleg](https://github.com/kroleg)
 * [@faucct](https://github.com/faucct)
 * [@glyn](https://github.com/glyn)
+* [@ronaldstevanus](https://github.com/ronaldstevanus)
+* [@goncalossilva](https://github.com/goncalossilva)
 
 
 ## License

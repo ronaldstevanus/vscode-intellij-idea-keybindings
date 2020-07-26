@@ -1,6 +1,6 @@
 {
     "name": "intellij-idea-keybindings",
-    "version": "0.2.38",
+    "version": "0.2.41",
     "publisher": "k--kato",
     "engines": {
         "vscode": "^1.40.0"
@@ -20,9 +20,9 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "vscode": "^1.1.36",
+        "vscode": "^1.1.37",
         "gulp": "~4.0.2",
-        "gulp-cli": "~2.2.0",
+        "gulp-cli": "~2.2.1",
         "gulp-strip-json-comments": "~4.0.1",
         "gulp-rename": "~2.0.0",
         "gulp-jsbeautifier": "~3.0.1"
@@ -45,7 +45,8 @@
         "url": "https://github.com/kasecato/vscode-intellij-idea-keybindings/issues"
     },
     "contributes": {
-        "keybindings": [{
+        "keybindings": [
+            {
                 "key": "ctrl+shift+enter",
                 "mac": "cmd+shift+enter",
                 "command": "acceptSelectedSuggestion",
@@ -93,14 +94,14 @@
                 "intellij": "Comment/uncomment with line comment"
             },
             {
-                "key": "ctrl+alt+/",
+                "key": "ctrl+shift+/",
                 "mac": "cmd+alt+/",
                 "command": "editor.action.blockComment",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Comment/uncomment with block comment"
             },
             {
-                "key": "ctrl+alt+numpad_divide",
+                "key": "ctrl+shift+numpad_divide",
                 "mac": "cmd+alt+numpad_divide",
                 "command": "editor.action.blockComment",
                 "when": "editorTextFocus && !editorReadonly",
@@ -328,6 +329,12 @@
                 "command": "editor.action.moveLinesUpAction",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Move Line Up"
+            },
+            {
+                "key": "shift+ctrl+8",
+                "mac": "shift+cmd+8",
+                "command": "editor.action.toggleColumnSelection",
+                "intellij": "Column Selection Mode"
             },
             {
                 "key": "f3",
@@ -730,6 +737,13 @@
                 "command": "editor.action.rename",
                 "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
                 "intellij": "Rename"
+            },
+            {
+                "key": "shift+f6",
+                "mac": "shift+f6",
+                "command": "editor.action.changeAll",
+                "when": "!editorHasRenameProvider && editorTextFocus && !editorReadonly",
+                "intellij": "Select All Occurrences"
             },
             {
                 "key": "shift+f6",
